@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Dun_Boss.h" />
+    <ClInclude Include="Dun_Laser.h" />
+    <ClInclude Include="Dun_Sphere.h" />
+    <ClInclude Include="Dun_Sword.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Dun_Boss.cpp" />
+    <ClCompile Include="Dun_Laser.cpp" />
+    <ClCompile Include="Dun_Sphere.cpp" />
+    <ClCompile Include="Dun_Sword.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TileMap.map" />
+    <None Include="window.ini" />
+  </ItemGroup>
+</Project>

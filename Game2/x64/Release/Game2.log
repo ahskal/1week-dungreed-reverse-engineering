@@ -1,0 +1,154 @@
+﻿  Main.cpp
+C:\Users\KK\Desktop\Framework_팀플\Game2\Main.cpp(65,66): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\KK\Desktop\Framework_팀플\Game2\Main.cpp(66,66): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\KK\Desktop\Framework_팀플\Game2\Main.cpp(72,67): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\KK\Desktop\Framework_팀플\Game2\Main.cpp(73,67): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\KK\Desktop\Framework_팀플\Game2\Main.cpp(173,94): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2541,23): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(_Iter,const _Iter,std::input_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=wchar_t *,
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2552): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(_Iter,const _Iter,std::input_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=wchar_t *,
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(const _Iter,const _Iter,std::forward_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=wchar_t *,
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2532): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<_InIt>(const _Iter,const _Iter,std::forward_iterator_tag)'에 대한 참조를 확인하세요.
+          with
+          [
+              _InIt=wchar_t *,
+              _Iter=wchar_t *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3260): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3260): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<wchar_t*,0>(_Iter,_Iter,const _Alloc &)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Iter=wchar_t *,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\KK\Desktop\Framework_팀플\Game2\Main.cpp(105): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+C:\Users\KK\Desktop\Framework_팀플\Game2\Main.cpp(105): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
+          ]
+2DFrameWork.lib(ObImage.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObImage.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObImage.obj) : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:ICF' 사양으로 인해 무시됩니다.
+2DFrameWork.lib(Window.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Window.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Timer.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Timer.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Camera.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Camera.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Input.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Input.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(GameObject.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(GameObject.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObRect.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObRect.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Direct3D11.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Direct3D11.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Texture.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Texture.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Shader.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Shader.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Gui.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Gui.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Random.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Random.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObStar.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObStar.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObCircle.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObCircle.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObLine.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObLine.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Utility.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Utility.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexImage.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexImage.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexWIC.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexWIC.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexD3D11.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexD3D11.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexUtil.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexUtil.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexConvert.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexConvert.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexMipMaps.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexMipMaps.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexCompress.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexCompress.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC4BC5.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC4BC5.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC6HBC7.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC6HBC7.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(Main.obj에 위치) 값과 일치하지 않습니다.
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(Main.obj에 위치) 값과 일치하지 않습니다.
+     C:\Users\KK\Desktop\Framework_팀플\x64\Release\Game2.lib 라이브러리 및 C:\Users\KK\Desktop\Framework_팀플\x64\Release\Game2.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4098: 'MSVCRTD' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+DirectXTex.lib(DirectXTexMipMaps.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Texture.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Shader.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Gui.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Random.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(ObImage.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Window.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(GameObject.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Direct3D11.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObStar.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObCircle.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObLine.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Utility.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Texture.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Shader.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Gui.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Random.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Input.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(GameObject.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObRect.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Direct3D11.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObImage.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Window.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Timer.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Camera.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+DirectXTex.lib(DirectXTexMipMaps.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Texture.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Shader.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Gui.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Random.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(ObImage.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Window.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(GameObject.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Direct3D11.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+C:\Users\KK\Desktop\Framework_팀플\x64\Release\Game2.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.
